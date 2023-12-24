@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "packageManager": "pnpm@8.7.5",
   "description": "Prettier config for BaoBao's projects",
-  "type": "module",
   "author": "BaoBao <1727283040@qq.com>",
   "license": "MIT",
   "homepage": "https://github.com/bao-io/prettier-config#readme",
@@ -25,5 +24,6 @@
   "devDependencies": {
     "bumpp": "^9.2.1",
     "prettier": "^3.1.1"
-  }
+  },
+  "prettier": "./index.js"
 }
